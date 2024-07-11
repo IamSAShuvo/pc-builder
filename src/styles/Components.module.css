@@ -1,0 +1,40 @@
+
+.container {
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.productContainer {
+    display: flex;
+    margin: 5px 0 5px
+}
+
+.icon {
+    background-color: lightgrey;
+    margin-right: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+
+.productInfoBlock {
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+    padding: 0 50px 0 20px;
+}
+.price {
+    display: flex;
+    margin: 10px 0;
+    padding-right: 30px;
+    border-right: 1px solid black;
+    align-items: center;
+}
+.action {
+    margin-left: 20px;
+    padding-top: 10px;
+    align-items: center;
+}

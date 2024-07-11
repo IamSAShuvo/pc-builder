@@ -1,0 +1,29 @@
+.container {
+    margin: 10px auto 10px;
+}
+.header {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: flex;
+}
+
+.dropdown {
+    width: 85%;
+    margin-right: 5px;
+    
+}
+@media only screen and (max-width: 1000px) {
+    .dropdown {
+        width: 70%;
+    }
+}
+
+.button {
+margin-left: auto;
+}
+
+.body {
+    display: block;
+}

@@ -1,0 +1,44 @@
+html,
+body {
+    font-weight: 300;
+}
+
+.header {
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+    text-align: right;
+    box-shadow: rgba(120, 162, 202, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 26px;
+    text-decoration: none;
+    /* border-right: 1px solid black; */
+}
+
+.link {
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0f0f;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: auto;
+}
+
+.user {
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    color: #0f0f0f;
+
+}

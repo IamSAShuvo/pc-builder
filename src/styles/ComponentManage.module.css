@@ -1,0 +1,41 @@
+.container {
+    margin: 10px auto 10px;
+}
+
+.upper {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+}
+
+.firstHalf {
+    margin: 2px auto 2px;
+}
+
+.icon {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.secondHalf {
+    margin: 2px 2px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.button {
+    width: 60%;
+    margin-left: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.lower {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    padding: 5px;
+}

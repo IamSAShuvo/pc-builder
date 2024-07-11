@@ -1,0 +1,14 @@
+.container {
+    margin: 10px auto 10px;
+}
+
+.header {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.body {
+    display: block;
+}
